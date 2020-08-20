@@ -1,0 +1,18 @@
+extends layout
+
+block layout-content
+  div.indexDiv
+  p(id="n") simchaaaaaaaaa
+  img#sh(src="jpg.jpg" alt="shimon")
+  form(action="/message" method="POST")
+     label(for="fname") First Name
+      input(type="text" id="fname" name="fname" placeholder="Your name..")
+      label(for="lname") Last Name
+      input(type="text" id="lname" name="lname" placeholder="Your last name..")
+      label(for="em") Email
+        input(type="text" id="em" name="email" placeholder="Your  email..")
+      label(for="Phone") Phone Number
+      input(type="text" id="Phone" name="phone" placeholder="Your phone number..")
+      input(type="submit" value="Submit" id ="sub")
+
+   

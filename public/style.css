@@ -1,0 +1,28 @@
+#n{
+    background-color: aquamarine;
+}
+html,
+body{
+    background-color: royalblue;
+}
+#notFound{
+   width: 100% ;
+   
+   
+}
+#navbar{
+    height : 100%;
+    width: 10%;
+    position: fixed;
+    background-color: navajowhite ;
+}
+#sidebar{
+    height : 10%;
+    width: 100%;
+    position: fixed;
+    background-color: rebeccapurple ;
+}
+#sh{
+    
+    width: 35%;
+}
